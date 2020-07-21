@@ -1,6 +1,9 @@
 # CustomJoinLeaveMessages
 Manage custom join/leave messages per player!
 
+# Resource Link
+https://www.spigotmc.org/resources/customjoinleavemessages.81720/
+
 # About
 CustomJoinLeaveMessages is a plugin for Spigot/Paper servers that enables you to have custom join and leave broadcasts when a player joins or leaves. With this plugin, each player of your server can have a different join/leave message.
 
