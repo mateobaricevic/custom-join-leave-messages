@@ -5,6 +5,7 @@ import com.vexkoala.customjoinleavemessages.commands.CommandCustomJoinMessage;
 import com.vexkoala.customjoinleavemessages.commands.CommandCustomLeaveMessage;
 import com.vexkoala.customjoinleavemessages.events.PlayerJoin;
 import com.vexkoala.customjoinleavemessages.events.PlayerQuit;
+import org.bstats.bukkit.Metrics;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -13,6 +14,11 @@ public final class CustomJoinLeaveMessages extends JavaPlugin {
     @Override
     public void onEnable()
     {
+
+        // bStats
+        int pluginId = 8270;
+        Metrics metrics = new Metrics(this, pluginId);
+
         // Plugin startup logic
         PluginManager pluginManager = getServer().getPluginManager();
 
